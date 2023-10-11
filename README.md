@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Boilerplate Next.js com TypeScript
 
-## Getting Started
+Este é um projeto boilerplate em Next.js com TypeScript, criado para ajudar no início rápido de novos projetos web.
 
-First, run the development server:
+## Recursos
 
+- **Next.js**: Framework React de servidor para construção de aplicativos web modernos.
+- **TypeScript**: Adiciona tipagem estática ao JavaScript, melhorando a manutenção do código.
+- **EditorConfig**: Define configurações de estilo de código para manter a consistência entre diferentes IDEs/editores.
+- **Prettier**: Formatação automática de código para manter o estilo consistente.
+- **Git Hooks**: Execute ganchos Git para automatizar tarefas antes de confirmar alterações.
+- **Lint-Staged**: Execute linters apenas em arquivos alterados durante um commit.
+- **Jest**: Framework de testes para JavaScript com suporte a TypeScript.
+- **React Testing Library**: Biblioteca para teste de componentes React.
+
+## Começando
+
+Siga estas etapas para iniciar seu projeto:
+
+**1. Clone o repositório:**
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+  git clone https://github.com/o3dsn/boilerplate-nextjs-ts.git
+  cd seu-boilerplate
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**2. Instale as dependências:**
+```bash
+  npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+**3. Desenvolvimento local:**
+Para iniciar o servidor de desenvolvimento local, execute:
+```bash
+  npm run dev
+```
+O aplicativo estará disponível em http://localhost:3000.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+**4. Testes:**
+Para executar os testes, utilize:
+```bash
+  npm test
+```
+Os testes são escritos com o Jest e o React Testing Library.
 
-## Learn More
+## Contribuindo
+Se você deseja contribuir para este projeto, siga estas etapas:
 
-To learn more about Next.js, take a look at the following resources:
+1. Crie um fork do repositório.
+2. Clone o fork para o seu ambiente local.
+3. Crie uma branch para sua contribuição.
+4. Faça as alterações desejadas.
+5. Execute os testes e certifique-se de que eles passem.
+6. Envie um pull request para o repositório original.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Autor
+Feito por mim :]
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Com base no curso [react avançado](https://reactavancado.com.br/).
